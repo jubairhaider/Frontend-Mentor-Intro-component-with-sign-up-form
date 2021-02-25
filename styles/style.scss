@@ -118,4 +118,20 @@ body {
       cursor: pointer;
     }
   }
+
+  small {
+    color: $red;
+    float: right;
+    font-size: 0.6rem;
+    font-weight: 700;
+    font-style: italic;
+    opacity: 0;
+    position: absolute;
+    top: 4rem;
+    right: 0.5rem;
+  }
+}
+
+#form div {
+  position: relative;
 }
