@@ -41,12 +41,12 @@ body {
   }
 
   p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-top: 1rem;
   }
 }
 .form-section {
-  width: 50rem;
+  width: 80%;
 }
 .purple-banner {
   text-align: center;
@@ -134,4 +134,49 @@ body {
 
 #form div {
   position: relative;
+}
+
+@media (max-width: 375px) {
+  .container {
+    display: block;
+    margin: 2rem auto;
+  }
+
+  .title-section {
+    text-align: center;
+    width: 100%;
+
+    h1 {
+      font-size: 1.5rem;
+      margin-top: 3rem;
+    }
+    p {
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+      width: 100%;
+    }
+  }
+
+  .form-section {
+    width: 100%;
+    margin: auto;
+  }
+
+  #form {
+    width: 100%;
+    input {
+      font-size: 0.75rem;
+      padding-left: 1rem;
+      width: 100%;
+    }
+
+    #submit-btn {
+      font-size: 0.9rem;
+    }
+
+    p {
+      display: block;
+      text-align: center;
+    }
+  }
 }
